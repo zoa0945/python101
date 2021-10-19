@@ -23,3 +23,8 @@ a = sys.stdin.readline().rstrip()
 n = int(a, 16)
 
 print("%o"%n)
+
+# Unicode 출력
+a = ord(sys.stdin.readline().rstrip())
+
+print(a)
