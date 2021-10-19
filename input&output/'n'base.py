@@ -29,6 +29,6 @@ a = ord(sys.stdin.readline().rstrip())
 
 print(a)
 
-# 정수를 입력받아 Unicode로 출력
+# Unicode를 입력받아 문자로 출력
 a = int(sys.stdin.readline().rstrip())
 print(chr(a))
